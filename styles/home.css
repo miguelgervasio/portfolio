@@ -1,0 +1,47 @@
+#home {
+  text-align: justify;
+
+  & p {
+    margin-top: 1.5rem;
+
+    color: var(--text-color-secondary);
+  }
+
+  & div > a {
+    width: 2rem;
+    height: 2rem;
+
+    margin-top: 1.5rem;
+  }
+
+  & img {
+    transition: transform 300ms;
+  }
+
+  & img[class*="social"]:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (width >= 80em) {
+  #home {
+    & > div {
+      margin-top: 2rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      gap: 5rem;
+    }
+
+    & div.text-content {
+      max-width: 30rem;
+    }
+
+    & img[class*="desktop"] {
+      width: 25rem;
+      border-radius: 50%;
+    }
+  }
+}

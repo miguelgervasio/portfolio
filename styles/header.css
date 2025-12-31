@@ -1,4 +1,6 @@
 header {
+  box-shadow: 0.75rem 0.5rem 4rem rgb(0 0 0 / 0.125);
+
   & img {
     width: 3rem;
     height: 3rem;

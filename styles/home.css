@@ -21,13 +21,17 @@
   & img[class*="social"]:hover {
     transform: scale(1.1);
   }
+
+  & .separator {
+    height: 1px;
+    margin-block: 2rem;
+    background: radial-gradient(var(--text-color-secondary), #18181b 70%);
+  }
 }
 
 @media (width >= 80em) {
   #home {
     & > div {
-      margin-top: 2rem;
-
       display: flex;
       align-items: center;
       justify-content: center;
@@ -36,12 +40,14 @@
     }
 
     & div.text-content {
-      max-width: 30rem;
+      max-width: 35rem;
     }
 
     & img[class*="desktop"] {
       width: 25rem;
       border-radius: 50%;
+
+      box-shadow: 0.75rem 0.5rem 4rem rgb(0 0 0 / 0.3);
     }
   }
 }

@@ -16,7 +16,7 @@
   & .content {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
 
     margin-top: 2rem;
   }
@@ -46,22 +46,8 @@
 
       & img {
         padding: 1rem;
-      }
-
-      &:nth-child(1) {
-        grid-area: A;
-      }
-
-      &:nth-child(2) {
-        grid-area: B;
-      }
-
-      &:nth-child(3) {
-        grid-area: C;
-      }
-
-      &:nth-child(4) {
-        grid-area: D;
+        width: 340px;
+        height: 190px;
       }
     }
 
@@ -97,6 +83,28 @@
 
     & .card {
       box-shadow: 0.75rem 0.5rem 4rem rgb(0 0 0 / 0.3);
+
+      & figure {
+        &:nth-child(1) {
+          grid-area: A;
+        }
+
+        &:nth-child(2) {
+          grid-area: B;
+        }
+
+        &:nth-child(3) {
+          grid-area: C;
+        }
+
+        &:nth-child(4) {
+          grid-area: D;
+        }
+
+        &:nth-child(5) {
+          grid-area: E;
+        }
+      }
     }
   }
 }

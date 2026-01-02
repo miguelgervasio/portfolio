@@ -1,0 +1,58 @@
+#services {
+  background: url(../assets/images/bg-help.png);
+  background-size: cover;
+  height: 75vh;
+
+  & header {
+    margin-bottom: 2rem;
+
+    & h2,
+    & h2 + span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    & h2 + span {
+      font-size: var(--fs-sm);
+      color: var(--text-color-secondary);
+    }
+  }
+
+  & .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.5rem;
+    margin-block: 1.5rem;
+
+    & span {
+      font-size: var(--fs-sm);
+      font-weight: var(--font-bold);
+      color: var(--text-color-primary);
+
+      display: block;
+      text-align: center;
+    }
+
+    & p {
+      font-size: var(--fs-sm);
+      color: var(--text-color-secondary);
+    }
+  }
+}
+
+@media (width >= 80em) {
+  #services {
+    height: 50vh;
+
+    & .info-services {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      margin-top: 2rem;
+    }
+  }
+}

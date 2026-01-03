@@ -23,7 +23,7 @@
 
   & .card {
     max-width: 340px;
-    background: #1d4ed8;
+    background: var(--bg-button);
     border-radius: 0.5rem;
 
     box-shadow: 0.75rem 0.5rem 4rem rgb(0 0 0 / 0.1);

@@ -1,7 +1,7 @@
 #services {
   background: url(../assets/images/bg-help.png);
   background-size: cover;
-  height: 75vh;
+  height: 80vh;
 
   & header {
     margin-bottom: 2rem;

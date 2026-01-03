@@ -10,6 +10,7 @@
   & div > a {
     width: 2rem;
     height: 2rem;
+    object-fit: contain;
 
     margin-top: 1.5rem;
   }
@@ -25,8 +26,8 @@
   & .icons {
     & div {
       display: grid;
-      align-items: center;
-      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      grid-template-columns: repeat(2, 1fr);
 
       gap: 1rem;
 

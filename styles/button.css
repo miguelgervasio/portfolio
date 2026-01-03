@@ -1,6 +1,6 @@
 .button {
   border: none;
-  background-color: #1d4ed8;
+  background-color: var(--bg-button);
 
   display: flex;
   align-items: center;

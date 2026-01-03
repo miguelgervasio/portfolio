@@ -5,6 +5,9 @@ footer {
     padding-block: 2rem;
 
     & span {
+      display: flex;
+      justify-content: center;
+
       font-size: var(--fs-sm);
       color: var(--text-color-secondary);
     }

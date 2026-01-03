@@ -92,22 +92,6 @@ a:hover {
   color: var(--brand-color);
 }
 
-p[class*="mobile"] {
-  transition: 200ms;
-}
-
-p[class*="mobile"]:hover {
-  border: solid 1px var(--brand-color);
-}
-
-a[class*="button"] {
-  transition: 200ms;
-}
-
-a[class*="button"]:hover {
-  color: var(--brand-color-dark);
-}
-
 img {
   max-width: 100%;
   display: inline-block;

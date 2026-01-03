@@ -1,0 +1,21 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.2);
+
+  & div {
+    padding-block: 2rem;
+
+    & span {
+      font-size: var(--fs-sm);
+      color: var(--text-color-secondary);
+    }
+  }
+}
+
+@media (width >= 80em) {
+  footer {
+    & span {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

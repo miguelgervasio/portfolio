@@ -23,5 +23,19 @@ header.navigation {
     border: solid 1px var(--text-color-primary);
     border-radius: 50%;
     padding-inline: 0.2rem;
+
+    transition: border 200ms;
+
+    &:hover {
+      border: solid 1px var(--brand-color);
+    }
+  }
+
+  & a[class*="button"] {
+    transition: 200ms;
+
+    &:hover {
+      color: var(--brand-color-dark);
+    }
   }
 }

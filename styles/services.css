@@ -1,7 +1,6 @@
 #services {
   background: url(../assets/images/bg-help.png);
   background-size: cover;
-  height: 70vh;
 
   & header {
     margin-block: 2rem;
@@ -46,8 +45,6 @@
 
 @media (width >= 80em) {
   #services {
-    height: 50vh;
-
     & .info-services {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
